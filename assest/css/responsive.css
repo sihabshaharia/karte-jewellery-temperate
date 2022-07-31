@@ -1,0 +1,133 @@
+/*******************************
+	All Responsive Code
+*******************************/
+@media screen and (min-width: 992px){
+  .mobile-menu-section{
+    display: none;
+  }
+}
+@media screen and (max-width: 1199px){
+  .main-link .main-item{margin-right: 5px;}
+  .search-icon{right: -10%;}
+  .header-section .content p {
+    font-size: 79px;
+    line-height: 89px;
+  }
+  .categori-bottom .content a.c-text{
+    font-size: 29px;
+    line-height: 39px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .center-menu-section{
+    display: none;
+  }
+
+  .mobile-menu-section{
+    display: block;
+  }
+
+  .menu-text{
+    display: none;
+  }
+
+  .search-box{
+    display: none;
+  }
+  
+.menu-section{
+  display: none;
+}
+/* header-section css start */
+.header-section{
+  padding: 100px 0;
+}
+.header-section .content p {
+  font-size: 32px;
+  line-height: 42px;
+  font-weight: 600;
+}
+/* header-section css end */
+.thum-text{
+  font-size: 12px;
+  line-height: 24px;
+}
+}
+
+
+@media screen and (max-width: 768px) {
+  
+.categori-bottom-section .categori-bottom:nth-child(1){
+  margin-bottom: 30px;
+}
+
+.feature-center::before {
+  height: 100%;
+  width: 100%;
+  -webkit-transform: skew(0deg, 0deg);
+  transform: skew(0deg, 0deg);
+}
+.feature-left-bg::before {
+  height: 100%;
+  width: 100%;
+  -webkit-transform: skew(0deg, 0deg);
+  transform: skew(0deg, 0deg);
+}
+.thum-text {
+  font-size: 17px;
+  line-height: 27px;
+}
+.Categorie-section,
+.seller-section{
+  padding: 40px 0;
+}
+a.btn{
+  margin: 20px 0;
+}
+.categori-bottom-section{
+  margin-top: 30px;
+}
+.our-product-section {
+  padding: 0px 0 30px 0;
+}
+.footer-section{
+  padding: 49px 0 52px 0;
+}
+
+}
+
+@media screen and (max-width: 575px) {
+  a.social-link {
+    font-size: 12px;
+    padding-right: 6px;
+}
+.menu-link .child-after:nth-child(1):after, .menu-link .child-after:nth-child(2):after, .menu-link .child-after:nth-child(3):after {
+  height: 12px;
+  bottom: -1px;
+}
+.head-menu-text .child-after {
+  margin-right: 0px;
+  padding-right: 12px;
+  font-size: 12px;
+}
+.head-menu-text .child-after:after{
+  background: #ffffff;
+}
+.nav-tabs .nav-link{
+  font-size: 20px;
+  line-height: 30px;
+}
+
+}
+
+@media screen and (max-width: 414px) {
+
+
+}
+
+@media screen and (max-width: 360px) {}
+
+/*******************************
+	All Responsive Code end
+*******************************/
