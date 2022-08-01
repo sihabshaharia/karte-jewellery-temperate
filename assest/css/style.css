@@ -510,16 +510,16 @@ a.card-btn-2{
   width: 100%;
 }
 .card-link li {
-    display: inline-block;
-    margin-top: 30px;
-    font-size: 17px;
-    width: 40px;
-    height: 40px;
-    background: rgb(248, 172, 124);
-    border-radius: 50%;
-    text-align: center;
-    line-height: 40px;
-    transition: all 0.3s ease 0s;
+  display: inline-block;
+  margin-top: 30px;
+  font-size: 15px;
+  width: 30px;
+  height: 30px;
+  background: rgb(248, 172, 124);
+  border-radius: 50%;
+  text-align: center;
+  line-height: 30px;
+  transition: all 0.3s ease 0s;
 }
 .card-link li a{
   color: #ffffff;
@@ -632,16 +632,16 @@ a.main-child-item-link{
   height: 250px;
 }
 .main-item-feature .main-child-links{
-  width: 700px;
-  height: 300px;
-  left: -340px;
+  width: 250px;
+  height: 234px;
+  left: -50px;
 }
 .main-item-page .main-child-links{
   width: 160px;
   height: 210px;
 }
 .main-item-Blogs .main-child-links{
-  width: 200px;
+  width: 168px;
   height: 100px;
 }
 .check-btn{
@@ -1161,7 +1161,7 @@ a.categori-btn:hover:after{
   color: #fff;
 }
 .footer-link .footer-text a:hover {
-  color: #25cbd3;
+  color: #F8AC7C;
 }
 /* footer-bottom-section css start */
 .footer-bottom-section{
@@ -1179,15 +1179,15 @@ a.categori-btn:hover:after{
 .color-white{
   color: #fff;
 }
+.color-white:hover{
+  color: #f69c63;
+}
 .color{
- color: #25CBD3;
+ color: #f69c63;
  transition: 0.3s;
 }
-.color-white:hover{
-  color: #25cbd3;
-}
 .color:hover{
- color: #25CBD3;
+ color: #e60e2b;
 }
 .footer-text-2 a{
   color: #cdcdcd;
@@ -1210,11 +1210,15 @@ a.categori-btn:hover:after{
 .social-link .link-list-2{
   display: inline-block;
 }
-.link-list-2 a{
+.link-list-2 .links-color{
   font-size: 18px;
   line-height: 28px;
-  color: #25cbd3;
+  color: #fff;
   margin-right: 10px;
+  transition: 0.3s;
+}
+.link-list-2 .links-color:hover{
+  color: #F8AC7C;
 }
 .link-list-2 .color-band{
   color: rgba(205, 205, 205, 1);
